@@ -1,0 +1,56 @@
+:root {
+  font-family:
+    'Aptos', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  color: #f8effa;
+  background: #140d22;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #140d22;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body,
+button,
+input {
+  font-family:
+    'Aptos', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+button,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(238, 172, 221, 0.34);
+  color: #fff7ff;
+}
+
+#root {
+  min-height: 100vh;
+}
